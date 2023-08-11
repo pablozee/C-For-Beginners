@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="FirstWorkspace" Database="" Version="10000">
   <Project Name="MyFirstProgram" Path="Project1/Project1.project" Active="No"/>
-  <Project Name="DisplayName" Path="DisplayName/DisplayName.project" Active="Yes"/>
+  <Project Name="DisplayName" Path="DisplayName/DisplayName.project" Active="No"/>
+  <Project Name="EnumExercise" Path="EnumExercise/EnumExercise.project" Active="No"/>
+  <Project Name="Rectangle" Path="Rectangle/Rectangle.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="MyFirstProgram" ConfigName="Debug"/>
       <Project Name="DisplayName" ConfigName="Debug"/>
+      <Project Name="EnumExercise" ConfigName="Debug"/>
+      <Project Name="Rectangle" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="MyFirstProgram" ConfigName="Release"/>
       <Project Name="DisplayName" ConfigName="Release"/>
+      <Project Name="EnumExercise" ConfigName="Release"/>
+      <Project Name="Rectangle" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
