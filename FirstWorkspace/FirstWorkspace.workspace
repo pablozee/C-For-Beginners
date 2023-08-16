@@ -4,7 +4,8 @@
   <Project Name="DisplayName" Path="DisplayName/DisplayName.project" Active="No"/>
   <Project Name="EnumExercise" Path="EnumExercise/EnumExercise.project" Active="No"/>
   <Project Name="Rectangle" Path="Rectangle/Rectangle.project" Active="No"/>
-  <Project Name="MinutesToYears" Path="MinutesToYears/MinutesToYears.project" Active="Yes"/>
+  <Project Name="MinutesToYears" Path="MinutesToYears/MinutesToYears.project" Active="No"/>
+  <Project Name="SizeOfDataTypes" Path="SizeOfDataTypes/SizeOfDataTypes.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="EnumExercise" ConfigName="Debug"/>
       <Project Name="Rectangle" ConfigName="Debug"/>
       <Project Name="MinutesToYears" ConfigName="Debug"/>
+      <Project Name="SizeOfDataTypes" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="EnumExercise" ConfigName="Release"/>
       <Project Name="Rectangle" ConfigName="Release"/>
       <Project Name="MinutesToYears" ConfigName="Release"/>
+      <Project Name="SizeOfDataTypes" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

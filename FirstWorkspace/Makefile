@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ MinutesToYears - Debug ]----------"
-	@cd "MinutesToYears" && "$(MAKE)" -f  "MinutesToYears.mk"
+	@echo "----------Building project:[ SizeOfDataTypes - Debug ]----------"
+	@cd "SizeOfDataTypes" && "$(MAKE)" -f  "SizeOfDataTypes.mk"
 clean:
-	@echo "----------Cleaning project:[ MinutesToYears - Debug ]----------"
-	@cd "MinutesToYears" && "$(MAKE)" -f  "MinutesToYears.mk" clean
+	@echo "----------Cleaning project:[ SizeOfDataTypes - Debug ]----------"
+	@cd "SizeOfDataTypes" && "$(MAKE)" -f  "SizeOfDataTypes.mk" clean
