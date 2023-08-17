@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SizeOfDataTypes - Debug ]----------"
-	@cd "SizeOfDataTypes" && "$(MAKE)" -f  "SizeOfDataTypes.mk"
+	@echo "----------Building project:[ CalculateTakeHomePay - Debug ]----------"
+	@cd "CalculateTakeHomePay" && "$(MAKE)" -f  "CalculateTakeHomePay.mk"
 clean:
-	@echo "----------Cleaning project:[ SizeOfDataTypes - Debug ]----------"
-	@cd "SizeOfDataTypes" && "$(MAKE)" -f  "SizeOfDataTypes.mk" clean
+	@echo "----------Cleaning project:[ CalculateTakeHomePay - Debug ]----------"
+	@cd "CalculateTakeHomePay" && "$(MAKE)" -f  "CalculateTakeHomePay.mk" clean
