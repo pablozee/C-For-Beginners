@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CalculateTakeHomePay - Debug ]----------"
-	@cd "CalculateTakeHomePay" && "$(MAKE)" -f  "CalculateTakeHomePay.mk"
+	@echo "----------Building project:[ GuessTheNumber - Debug ]----------"
+	@cd "GuessTheNumber" && "$(MAKE)" -f  "GuessTheNumber.mk"
 clean:
-	@echo "----------Cleaning project:[ CalculateTakeHomePay - Debug ]----------"
-	@cd "CalculateTakeHomePay" && "$(MAKE)" -f  "CalculateTakeHomePay.mk" clean
+	@echo "----------Cleaning project:[ GuessTheNumber - Debug ]----------"
+	@cd "GuessTheNumber" && "$(MAKE)" -f  "GuessTheNumber.mk" clean
