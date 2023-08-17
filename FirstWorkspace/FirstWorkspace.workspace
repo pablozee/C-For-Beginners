@@ -7,7 +7,8 @@
   <Project Name="MinutesToYears" Path="MinutesToYears/MinutesToYears.project" Active="No"/>
   <Project Name="SizeOfDataTypes" Path="SizeOfDataTypes/SizeOfDataTypes.project" Active="No"/>
   <Project Name="CalculateTakeHomePay" Path="CalculateTakeHomePay/CalculateTakeHomePay.project" Active="No"/>
-  <Project Name="GuessTheNumber" Path="GuessTheNumber/GuessTheNumber.project" Active="Yes"/>
+  <Project Name="GuessTheNumber" Path="GuessTheNumber/GuessTheNumber.project" Active="No"/>
+  <Project Name="GeneratePrimeNumbers" Path="GeneratePrimeNumbers/GeneratePrimeNumbers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +20,7 @@
       <Project Name="SizeOfDataTypes" ConfigName="Debug"/>
       <Project Name="CalculateTakeHomePay" ConfigName="Debug"/>
       <Project Name="GuessTheNumber" ConfigName="Debug"/>
+      <Project Name="GeneratePrimeNumbers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="SizeOfDataTypes" ConfigName="Release"/>
       <Project Name="CalculateTakeHomePay" ConfigName="Release"/>
       <Project Name="GuessTheNumber" ConfigName="Release"/>
+      <Project Name="GeneratePrimeNumbers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
