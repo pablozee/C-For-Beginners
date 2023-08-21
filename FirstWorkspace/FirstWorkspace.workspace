@@ -9,7 +9,8 @@
   <Project Name="CalculateTakeHomePay" Path="CalculateTakeHomePay/CalculateTakeHomePay.project" Active="No"/>
   <Project Name="GuessTheNumber" Path="GuessTheNumber/GuessTheNumber.project" Active="No"/>
   <Project Name="GeneratePrimeNumbers" Path="GeneratePrimeNumbers/GeneratePrimeNumbers.project" Active="No"/>
-  <Project Name="Weather" Path="Weather/Weather.project" Active="Yes"/>
+  <Project Name="Weather" Path="Weather/Weather.project" Active="No"/>
+  <Project Name="FunctionsChallenge" Path="FunctionsChallenge/FunctionsChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -23,6 +24,7 @@
       <Project Name="GuessTheNumber" ConfigName="Debug"/>
       <Project Name="GeneratePrimeNumbers" ConfigName="Debug"/>
       <Project Name="Weather" ConfigName="Debug"/>
+      <Project Name="FunctionsChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="GuessTheNumber" ConfigName="Release"/>
       <Project Name="GeneratePrimeNumbers" ConfigName="Release"/>
       <Project Name="Weather" ConfigName="Release"/>
+      <Project Name="FunctionsChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

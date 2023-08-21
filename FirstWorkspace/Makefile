@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Weather - Debug ]----------"
-	@cd "Weather" && "$(MAKE)" -f  "Weather.mk"
+	@echo "----------Building project:[ FunctionsChallenge - Debug ]----------"
+	@cd "FunctionsChallenge" && "$(MAKE)" -f  "FunctionsChallenge.mk"
 clean:
-	@echo "----------Cleaning project:[ Weather - Debug ]----------"
-	@cd "Weather" && "$(MAKE)" -f  "Weather.mk" clean
+	@echo "----------Cleaning project:[ FunctionsChallenge - Debug ]----------"
+	@cd "FunctionsChallenge" && "$(MAKE)" -f  "FunctionsChallenge.mk" clean
