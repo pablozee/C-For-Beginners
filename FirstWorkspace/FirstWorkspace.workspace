@@ -10,7 +10,8 @@
   <Project Name="GuessTheNumber" Path="GuessTheNumber/GuessTheNumber.project" Active="No"/>
   <Project Name="GeneratePrimeNumbers" Path="GeneratePrimeNumbers/GeneratePrimeNumbers.project" Active="No"/>
   <Project Name="Weather" Path="Weather/Weather.project" Active="No"/>
-  <Project Name="FunctionsChallenge" Path="FunctionsChallenge/FunctionsChallenge.project" Active="Yes"/>
+  <Project Name="FunctionsChallenge" Path="FunctionsChallenge/FunctionsChallenge.project" Active="No"/>
+  <Project Name="TicTacToe" Path="TicTacToe/TicTacToe.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -25,6 +26,7 @@
       <Project Name="GeneratePrimeNumbers" ConfigName="Debug"/>
       <Project Name="Weather" ConfigName="Debug"/>
       <Project Name="FunctionsChallenge" ConfigName="Debug"/>
+      <Project Name="TicTacToe" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -39,6 +41,7 @@
       <Project Name="GeneratePrimeNumbers" ConfigName="Release"/>
       <Project Name="Weather" ConfigName="Release"/>
       <Project Name="FunctionsChallenge" ConfigName="Release"/>
+      <Project Name="TicTacToe" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
