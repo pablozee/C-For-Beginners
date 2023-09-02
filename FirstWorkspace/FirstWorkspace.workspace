@@ -13,7 +13,8 @@
   <Project Name="FunctionsChallenge" Path="FunctionsChallenge/FunctionsChallenge.project" Active="No"/>
   <Project Name="TicTacToe" Path="TicTacToe/TicTacToe.project" Active="No"/>
   <Project Name="CharArrays" Path="CharArrays/CharArrays.project" Active="No"/>
-  <Project Name="PointerBasics" Path="PointerBasics/PointerBasics.project" Active="Yes"/>
+  <Project Name="PointerBasics" Path="PointerBasics/PointerBasics.project" Active="No"/>
+  <Project Name="PointersAsParameters" Path="PointersAsParameters/PointersAsParameters.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +32,7 @@
       <Project Name="TicTacToe" ConfigName="Debug"/>
       <Project Name="CharArrays" ConfigName="Debug"/>
       <Project Name="PointerBasics" ConfigName="Debug"/>
+      <Project Name="PointersAsParameters" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +50,7 @@
       <Project Name="TicTacToe" ConfigName="Release"/>
       <Project Name="CharArrays" ConfigName="Release"/>
       <Project Name="PointerBasics" ConfigName="Release"/>
+      <Project Name="PointersAsParameters" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
