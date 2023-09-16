@@ -15,7 +15,9 @@
   <Project Name="CharArrays" Path="CharArrays/CharArrays.project" Active="No"/>
   <Project Name="PointerBasics" Path="PointerBasics/PointerBasics.project" Active="No"/>
   <Project Name="PointersAsParameters" Path="PointersAsParameters/PointersAsParameters.project" Active="No"/>
-  <Project Name="CountingCharsInString" Path="CountingCharsInString/CountingCharsInString.project" Active="Yes"/>
+  <Project Name="CountingCharsInString" Path="CountingCharsInString/CountingCharsInString.project" Active="No"/>
+  <Project Name="UsingDynamicMemory" Path="UsingDynamicMemory/UsingDynamicMemory.project" Active="No"/>
+  <Project Name="InitialisingStructures" Path="InitialisingStructures/InitialisingStructures.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -35,6 +37,8 @@
       <Project Name="PointerBasics" ConfigName="Debug"/>
       <Project Name="PointersAsParameters" ConfigName="Debug"/>
       <Project Name="CountingCharsInString" ConfigName="Debug"/>
+      <Project Name="UsingDynamicMemory" ConfigName="Debug"/>
+      <Project Name="InitialisingStructures" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -54,6 +58,8 @@
       <Project Name="PointerBasics" ConfigName="Release"/>
       <Project Name="PointersAsParameters" ConfigName="Release"/>
       <Project Name="CountingCharsInString" ConfigName="Release"/>
+      <Project Name="UsingDynamicMemory" ConfigName="Release"/>
+      <Project Name="InitialisingStructures" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
