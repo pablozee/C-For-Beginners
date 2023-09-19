@@ -17,7 +17,11 @@
   <Project Name="PointersAsParameters" Path="PointersAsParameters/PointersAsParameters.project" Active="No"/>
   <Project Name="CountingCharsInString" Path="CountingCharsInString/CountingCharsInString.project" Active="No"/>
   <Project Name="UsingDynamicMemory" Path="UsingDynamicMemory/UsingDynamicMemory.project" Active="No"/>
-  <Project Name="InitialisingStructures" Path="InitialisingStructures/InitialisingStructures.project" Active="Yes"/>
+  <Project Name="InitialisingStructures" Path="InitialisingStructures/InitialisingStructures.project" Active="No"/>
+  <Project Name="StructurePointersAndFunctions" Path="StructurePointersAndFunctions/StructurePointersAndFunctions.project" Active="No"/>
+  <Project Name="NumberOfLines" Path="NumberOfLines/NumberOfLines.project" Active="No"/>
+  <Project Name="CharToUppercase" Path="CharToUppercase/CharToUppercase.project" Active="No"/>
+  <Project Name="ReverseContents" Path="ReverseContents/ReverseContents.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -39,6 +43,10 @@
       <Project Name="CountingCharsInString" ConfigName="Debug"/>
       <Project Name="UsingDynamicMemory" ConfigName="Debug"/>
       <Project Name="InitialisingStructures" ConfigName="Debug"/>
+      <Project Name="StructurePointersAndFunctions" ConfigName="Debug"/>
+      <Project Name="NumberOfLines" ConfigName="Debug"/>
+      <Project Name="CharToUppercase" ConfigName="Debug"/>
+      <Project Name="ReverseContents" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -60,6 +68,10 @@
       <Project Name="CountingCharsInString" ConfigName="Release"/>
       <Project Name="UsingDynamicMemory" ConfigName="Release"/>
       <Project Name="InitialisingStructures" ConfigName="Release"/>
+      <Project Name="StructurePointersAndFunctions" ConfigName="Release"/>
+      <Project Name="NumberOfLines" ConfigName="Release"/>
+      <Project Name="CharToUppercase" ConfigName="Release"/>
+      <Project Name="ReverseContents" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
